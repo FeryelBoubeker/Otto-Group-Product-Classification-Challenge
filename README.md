@@ -10,7 +10,7 @@ This project addresses the **Otto Group Product Classification Challenge**, a mu
 
 ## Methodology
 A variety of machine learning models were explored, including logistic regression, k-nearest neighbors, random forests, neural networks, and gradient-boosted trees (XGBoost). To leverage the complementary strengths of these models, an **advanced stacking ensemble** was implemented using out-of-fold predictions and a tree-based meta-model.
-![Model Pipeline](Final_pipeline.png)
+![Model Pipeline](Model_Pipeline.png)
 
 ## Results
 The final stacking ensemble outperformed all individual base models in terms of log-loss and accuracy. The approach achieved a **Kaggle leaderboard score of 0.42174**, ranking **201 out of 3,559 participants**.
