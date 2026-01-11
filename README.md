@@ -15,9 +15,4 @@ A variety of machine learning models were explored, including logistic regressio
 ## Results
 The final stacking ensemble outperformed all individual base models in terms of log-loss and accuracy. The approach achieved a **Kaggle leaderboard score of 0.42174**, ranking **201 out of 3,559 participants**.
 
-## Limitations
-The primary limitation of this project is computational cost. Training the full ensemble requires significant time, which constrained rapid experimentation and occasionally led to session interruptions in the Kaggle environment.
-
-## Key Takeaways
-This project provided hands-on experience with ensemble learning, probabilistic modeling, validation strategies, and large-scale tabular data modeling in a competitive setting.
 
